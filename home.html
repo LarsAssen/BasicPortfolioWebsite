@@ -33,8 +33,35 @@
   </nav>
 
   <main>
-    <div class="container-fluid">
-      <h1>Bla bla</h1>
+    <div id="carousel-widget" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="carousel-widget" data-slide-to="0" class="active"></li>
+        <li data-target="carousel-widget" data-slide-to="1"></li>
+        <li data-target="carousel-widget" data-slide-to="2"></li>
+      </ul>
+
+      <div class="carousel-inner">
+        <div class="carousel-item-active">
+          <img src="./imgs/tiger.jpg" alt="Tiger" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/flower.jpg" alt="Flower" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/dragon.jpg" alt="Dragon" width="1100" height="500">
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel-widget" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-widget" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+
+
+
     </div>
   </main>
 

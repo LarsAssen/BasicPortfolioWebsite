@@ -27,6 +27,10 @@ main{
     color: white;
 }
 
+footer{
+    margin-bottom:0;
+}
+
 .jumbotron{
     background-color: #76c990;
 }
