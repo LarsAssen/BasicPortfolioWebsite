@@ -8,11 +8,13 @@
 }
 
 .navbar-brand{
+    text-decoration: none;
     color: white;
 }
 
-.navbar-nav{
-    justify-content: right;
+.navbar-brand:hover{
+    background-color:#6ae3b5;
+    color: white;
 }
 
 .nav-link:hover{
