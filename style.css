@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navbar{
     background-color: #76c990;
 }
@@ -53,6 +57,7 @@ main{
 .column{
     float: left;
     width: 25%;
+    padding: 10px;
 }
 
 .column img{
