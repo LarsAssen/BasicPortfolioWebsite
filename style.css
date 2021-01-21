@@ -27,13 +27,13 @@ body{
 }
 
 main{
-    background-color:#92d470;
+    background-color:#c7cfB7;
     color: white;
 }
 
 .hero-image img{ 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 50%;
+    height: 1000px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,9 +41,6 @@ main{
     position: relative;
 }
 
-#about{
-    background-color:#6ae3b5;;
-}
 
 .hero-text{
     text-align: center;
@@ -59,7 +56,7 @@ main{
 }
 .column{
     float: left;
-    width: 25%;
+    width: 24%;
     padding: 10px;
 }
 
@@ -76,7 +73,24 @@ main{
 
 .container{
     position: relative;
-    display: none;
+    height: 500px;
+}
+
+.container img{
+    height: 100%;
+}
+
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: black solid 1px;
 }
 
 footer{
